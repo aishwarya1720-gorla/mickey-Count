@@ -1,0 +1,79 @@
+/* Container for the buttons */
+#first {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  /* Circle button styles (for + and -) */
+  .button1 {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;  /* This makes it a perfect circle */
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;  /* Black background like Mickey's ears */
+    color: white; 
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button1:hover {
+    background-color: #333; /* Darker black on hover */
+  }
+  
+  /* Rectangular Reset button */
+  #but3 {
+    width: 120px;           /* Rectangle width */
+    height: 50px;           /* Rectangle height */
+    border-radius: 10px;     /* Slightly rounded corners */
+    background-color: red;   /* Red background */
+    color: white;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #but3:hover {
+    background-color: #b30000; /* Darker red on hover */
+  }
+  
+  /* Style for the counter text */
+  h1 {
+    font-size: 36px;
+    color: #333;
+    text-align: center;
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Image replacement (background) */
+  #imgl {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    background-color: black;  /* Black background to mimic Mickey's face */
+  }
+  
+  /* Center content in the main div */
+  #main {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  /* Body Styling */
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
